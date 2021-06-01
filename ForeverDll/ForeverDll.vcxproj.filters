@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{0cb30269-04d0-42bd-9053-0449aa32d1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f640b135-9f76-44b0-9ec8-5585419956dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Export">
+      <UniqueIdentifier>{7bc8abad-2d76-45cc-a9f0-c259b3c8f449}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Export\Engine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Actor.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Camera.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Clock.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Color.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\constant.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\define.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Drawable.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enum.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ErrorHandle.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Font.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Forever.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ForeverTime.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lua_utility.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\macro.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\miscellaneous.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rect.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scene.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Sprite.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Text.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\type.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vector2.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Version.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Window.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Engine.h">
+      <Filter>Header\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Export\Font.h">
+      <Filter>Header\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="TsDeque.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Button.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\constant.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Font.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_utility.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miscellaneous.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Version.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Window.cc">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
