@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 
 	try {
 		fr::Engine engine(init);
-		engine.Window().SetIcon("Media/icon.png");
+		engine.Window().SetIcon("Media/icon.jpg");
 
 		Game game_scene(&engine);
 

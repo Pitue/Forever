@@ -96,9 +96,6 @@
     <ClInclude Include="include\Export\Font.h">
       <Filter>Header\Export</Filter>
     </ClInclude>
-    <ClInclude Include="TsDeque.h">
-      <Filter>Header</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Button.cc">

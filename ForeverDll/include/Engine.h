@@ -24,7 +24,7 @@ namespace fr {
 	struct InitData {
 		std::string title, config_file;
 		Vector2i size;
-		uint32 tick_time, window_flags, render_flags = RendererFlags::SDL_RENDERER_ACCELERATED | RendererFlags::SDL_RENDERER_PRESENTVSYNC, display_index = 0, fullscreen;
+		uint32 tick_time = 50, window_flags, render_flags = RendererFlags::SDL_RENDERER_ACCELERATED | RendererFlags::SDL_RENDERER_PRESENTVSYNC, display_index = 0, fullscreen = 0;
 	};
 
 	namespace Imp {
