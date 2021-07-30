@@ -22,7 +22,8 @@ namespace fr {
 		ERR_CREATING,
 		ERR_LUA,
 		ERR_LUA_NOT_FOUND,
-		ERR_SDL
+		ERR_SDL,
+		ERR_STRING_ENCODING
 	};
 	enum class FOREVER_API TextRenderMode : uint8 {
 		RENDER_BLENDED = 0,

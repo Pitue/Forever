@@ -11,6 +11,8 @@
 #include "enum.h"
 #include "constant.h"
 
+#include <utf8cpp/utf8.h>
+
 namespace fr {
 	class Drawable;
 
@@ -22,8 +24,7 @@ namespace fr {
 	std::string FOREVER_API ReadFile(std::ifstream& filestream, size_t filesize = 0);
 	std::string FOREVER_API ReadFile(std::string filename);
 
-	bool FOREVER_API UTF8_IsLeadingByte(char c);
-	void FOREVER_API UTF8_PopLast(std::string& x);
+	void FOREVER_API UTF8_PopLast(std::string& str);
 
 	/*
 	Initialises the SDL libaries

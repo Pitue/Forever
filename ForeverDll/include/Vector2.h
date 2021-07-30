@@ -2,7 +2,7 @@
 #define __FOREVER_VECTOR2_H__
 
 extern "C" {
-#include <SDL.h>
+#include <SDL2/SDL.h>
 }
 
 namespace fr {

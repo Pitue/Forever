@@ -1,7 +1,7 @@
 #ifndef __FOREVER_DRAWABLE_H__
 #define __FOREVER_DRAWABLE_H__
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 #include "type.h"
 #include "define.h"

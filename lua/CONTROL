@@ -1,8 +1,0 @@
-Package: lua
-Version: 5.4.3
-Port-Version: 1
-Architecture: x64-windows
-Multi-Arch: same
-Abi: f9075f881fe056e2c936074cdcec1a9df8c9377a
-Description: A powerful, fast, lightweight, embeddable scripting language
-Type: Port

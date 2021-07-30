@@ -57,17 +57,14 @@ namespace fr {
 #endif
 	}
 
-	bool UTF8_IsLeadingByte(char c) {
-		auto first_bit_set = (c & 0x80) != 0;
-		auto second_bit_set = (c & 0X40) != 0;
-		return !first_bit_set || second_bit_set;
-	}
 	void UTF8_PopLast(std::string& str) {
-		if (str.length() > 0) {
-			while (!UTF8_IsLeadingByte(str.back()))
-				str.pop_back();
-			str.pop_back();
-		}
+		if (!utf8::is_valid(str.begin(), str.end()))
+			throw std::runtime_error(MakeErrorStr(ErrorCode::ERR_STRING_ENCODING));
+
+		std::string::iterator it;
+		utf8::prior(it, str.end());
+
+		str.erase(it, str.end());
 	}
 
 	void Init(uint32 sdl_flags, int img_flags, int mix_flags, bool init_ttf) {

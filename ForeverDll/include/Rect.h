@@ -1,7 +1,7 @@
 #ifndef __FOREVER_RECT_H__
 #define __FOREVER_RECT_H__
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "Vector2.h"
 #include "define.h"
 

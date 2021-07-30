@@ -17,7 +17,8 @@ namespace fr {
 		"Forever: Couldn't create an object: ",
 		"Forever: Lua: ",
 		"Forever: Lua: Couldn't load Variable: ",
-		"Forever: SDL Error: "
+		"Forever: SDL Error: ",
+		"Forever: utf8cpp: Not an valid UTF-8 string"
 	};
 	ErrorHandle ERROR_HANDLE(ErrorHandleMode::SHOW_MESSAGE_BOX);
 }

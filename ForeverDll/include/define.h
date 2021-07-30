@@ -1,8 +1,8 @@
 #ifndef __FOREVER_DEFINE_H__
 #define __FOREVER_DEFINE_H__
 
-#include <SDL.h>
-#include <SDL_mixer.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
 
 #ifdef FOREVERDLL_EXPORTS
 #define FOREVER_API __declspec(dllexport)

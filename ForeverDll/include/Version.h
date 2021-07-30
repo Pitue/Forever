@@ -3,7 +3,7 @@
 
 #include <string>
 
-#include <SDL_version.h>
+#include <SDL2/SDL_version.h>
 #include <lua.hpp>
 
 #include "miscellaneous.h"

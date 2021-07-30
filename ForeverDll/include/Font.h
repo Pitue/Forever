@@ -5,7 +5,7 @@
 #include <string>
 #include <stdexcept>
 
-#include <SDL_ttf.h>
+#include <SDL2/SDL_ttf.h>
 
 #include "type.h"
 
